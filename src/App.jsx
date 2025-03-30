@@ -1,4 +1,5 @@
 import iconStar from "./assets/icon-star.svg"
+import illustrationThank from "./assets/illustration-thank-you.svg"
 import { useState } from "react"
 
 export function App() {
@@ -41,7 +42,9 @@ export function App() {
           <button className="bg-orange w-full py-3 rounded-3xl uppercase font-bold tracking-1" onClick={handleSubmit}>Submit</button>
         </div>
         ) : (
-          <p>outro código</p>
+          <div className="bg-radial-gradient max-w-103 px-6 pt-6 pb-8 rounded-2xl">
+            <img src={illustrationThank} alt="thank you" />
+          </div>
         )}
         
       </div>
