@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+    --color-very-dark-blue: #131518;
+    --color-light-grey: #969FAD;
+    --color-medium-grey: #7C8798;
+    --color-orange: #FC7614;
+    --color-black-gradient:  radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    
+}
+
+@layer utilities {
+    .bg-radial-gradient {
+        background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+
+    }
+}
+
+/* width: 327;
+height: 360;
+border-radius: 15px; */
