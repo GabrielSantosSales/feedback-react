@@ -42,8 +42,13 @@ export function App() {
           <button className="bg-orange w-full py-3 rounded-3xl uppercase font-bold tracking-1" onClick={handleSubmit}>Submit</button>
         </div>
         ) : (
-          <div className="bg-radial-gradient max-w-103 px-6 pt-6 pb-8 rounded-2xl">
-            <img src={illustrationThank} alt="thank you" />
+          <div className="bg-radial-gradient max-w-103 px-6 pt-6 pb-8 rounded-2xl text-center">
+            <img className="mx-auto mb-6 " src={illustrationThank} alt="thank you" />
+            <p className="mb-6 text-orange bg-darkblue w-fit mx-auto px-3 py-1.25 rounded-3xl">You selected {rateNote} out of 5!</p>
+
+            <h1 className="text-white font-bold text-2xl mb-2.5">Thank You!</h1>
+
+          <p className="text-light-grey text-sm leading-1">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
           </div>
         )}
         
