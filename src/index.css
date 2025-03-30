@@ -2,11 +2,16 @@
 
 @theme {
     --color-very-dark-blue: #131518;
+    --color-darkblue: #262E38;
     --color-light-grey: #969FAD;
     --color-medium-grey: #7C8798;
     --color-orange: #FC7614;
     --color-black-gradient:  radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    --font-overpass: "Overpass", "sans-serif";
+
+    --leading-1: 1.375rem;
     
+    --tracking-1: 1.867px;
 }
 
 @layer utilities {
